@@ -1,10 +1,6 @@
 # M5-Prog 
 
 ## Opdracht 1.1
-### Scripts
-[TowerSpawner.cs](Assets/Scripts/TowerSpawner.cs)
-[Tower](Assets\Scripts\Tower.cs)
-
 
 ## Opdracht 1.2
 
@@ -27,3 +23,6 @@
 ## Opdracht 1.11
 
 ## Opdracht 1.12
+### Scripts
+[TowerSpawner.cs](Assets/Scripts/TowerSpawner.cs)
+[Tower](Assets\Scripts\Tower.cs)
