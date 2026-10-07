@@ -25,4 +25,4 @@
 ## Opdracht 1.12
 ### Scripts
 [TowerSpawner.cs](Assets/Scripts/TowerSpawner.cs)
-[Tower](Assets\Scripts\Tower.cs)
+[Tower.cs](Assets\Scripts\Tower.cs)
