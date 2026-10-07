@@ -24,6 +24,6 @@
 
 ## Opdracht 1.12
 ### Scripts
-[Console.cs](Assets\Scripts\Console.cs)
+[Console.cs](Assets/Scripts/Console.cs)
 [TowerSpawner.cs](Assets/Scripts/TowerSpawner.cs)
-[Tower.cs](Assets\Scripts\Tower.cs)
+[Tower.cs](Assets/Scripts/Tower.cs)
