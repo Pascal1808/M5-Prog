@@ -23,7 +23,7 @@
 ## Opdracht 1.11
 
 ## Opdracht 1.12
-### Scripts
+## Scripts
 [Console.cs](Assets/Scripts/Console.cs)
 [TowerSpawner.cs](Assets/Scripts/TowerSpawner.cs)
 [Tower.cs](Assets/Scripts/Tower.cs)
