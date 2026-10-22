@@ -23,7 +23,7 @@
 ## Opdracht 1.11
 
 ## Opdracht 1.12
-[!gif](TowerSpawner.gif)
+![gif](TowerSpawner.gif)
 ## Scripts
 [Console.cs](Assets/Scripts/Console.cs)
 [TowerSpawner.cs](Assets/Scripts/TowerSpawner.cs)
