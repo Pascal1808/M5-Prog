@@ -1,9 +1,9 @@
 # M5-Prog 
 
 ## Opdracht 1.1
-<Opdracht>
-dsfghdsgjhdkgsfj
-</Opdracht>
+  <Opdracht>
+      dsfghdsgjhdkgsfj
+  </Opdracht>
 
 ## Opdracht 1.2
 
