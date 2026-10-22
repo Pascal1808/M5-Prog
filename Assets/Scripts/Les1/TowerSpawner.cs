@@ -6,7 +6,7 @@ public class TowerSpawner : MonoBehaviour
 
     void Update()
     {
-       // if (Input.GetMouseButtonDown(0))
+       if (Input.GetMouseButtonDown(0))
         {
             float x = Random.Range(-5f, 5f);
             float y = Random.Range(-5f, 5f);

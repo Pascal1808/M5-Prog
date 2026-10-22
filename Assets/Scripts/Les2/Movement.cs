@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
  
         animator = GetComponentInChildren<Animator>();
-        Debug.Log("Hallo");
+      
     }    
  
     void OnEnable(){input.FindActionMap(actionMapName).Enable();}
@@ -48,24 +48,21 @@ public class Movement : MonoBehaviour
         Vector2 moveInput = moveAction.ReadValue<Vector2>();
  
         float speed = walkSpeed * moveInput.y;
-        Debug.Log("jumpaction: "+ jumpAction.IsPressed());
-        Debug.Log("isGrounded:"+ isGrounded);
+        
         if (jumpAction.IsPressed()&& isGrounded)
         {
-            Debug.Log("Jummppp");
+           
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
-            animator.SetTrigger("JumpTrigger");
+            //animator.SetTrigger("JumpTrigger");
        
         }
         if (moveAction.WasPressedThisFrame())
         {
-            Debug.Log("MOOVVEE");
        
         }
         if (sprintAction.IsPressed())
         {
-            Debug.Log("Sprintttt");
             speed *= 3f;
        
         }
@@ -75,8 +72,8 @@ public class Movement : MonoBehaviour
         float angle = moveInput.x * turnSpeed * Time.deltaTime;
         transform.Rotate(0f, angle, 0f, Space.World);
  
-        animator.SetFloat("Speed", speed);
-        animator.SetBool("Grounded", isGrounded);
+        //animator.SetFloat("Speed", speed);
+        //animator.SetBool("Grounded", isGrounded);
  
     }
     void OnCollisionEnter(Collision collision)
