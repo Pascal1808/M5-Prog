@@ -17,13 +17,14 @@ public class Console : MonoBehaviour
 
     void Update()
     {
-        Begroet("Erwin");
-        //if (Input.GetKeyDown(KeyCode.Space))
+        
+        if (Input.GetKeyDown(KeyCode.Space))
         {
+            Begroet("Erwin");
             Health -= 25;
             Debug.Log("Health: " + Health);
         }
-        //if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Health += 80;
             Debug.Log("Health: " + Health);
