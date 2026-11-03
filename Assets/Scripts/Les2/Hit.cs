@@ -8,6 +8,7 @@ public class Hit : MonoBehaviour
     { 
         if (other.CompareTag("Player"))
         {
+            Debug.Log("ben oke");
             OnHit?.Invoke();
             Debug.Log("Ik vernietig: " + gameObject.name);
             Destroy(gameObject);
