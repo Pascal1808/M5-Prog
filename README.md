@@ -29,7 +29,20 @@
 # Les4
 
 # Les5
+
 ![gif](05_OOP_Inherritance.gif)
+# Les6
+## Depandancies
+### class Enemy: 
+#### int Health read & write
+### class TowerUpgradeStage:
+#### float Range read & write
+#### float FireRate read & write
+#### int Price read & write
+#### int UpgradeStage read only
+#### int TowerPrice read only
+### class CoinManager:
+#### int Coins read only
 ### Scripts
 #### Les 1
 [Console.cs](Assets\Scripts\Les1\Console.cs)
