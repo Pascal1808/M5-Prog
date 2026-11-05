@@ -5,7 +5,7 @@
 ### Opdracht 1.2
 ![alt text](<Screenshot 2026-10-29 123204.png>)
 ### Opdracht 1.3
-
+![alt text](<Les1.3.png>)
 ### Opdracht 1.4
 
 ### Opdracht 1.5

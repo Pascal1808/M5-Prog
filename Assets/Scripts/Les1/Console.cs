@@ -3,7 +3,7 @@ using UnityEngine;
 public class Console : MonoBehaviour
 {
         public GameObject Box;
-        string Naam = "Naam: erwin";
+        string Naam = "Naam: Pascal";
         public int Health = 100;
         public bool Leeft = true;
     void Start()
@@ -20,7 +20,6 @@ public class Console : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Begroet("Erwin");
             Health -= 25;
             Debug.Log("Health: " + Health);
         }
@@ -34,6 +33,10 @@ public class Console : MonoBehaviour
             Leeft = false;
             Debug.Log("Leeft: " + Leeft);
             Destroy(Box);
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Begroet("Pascal");
         }
 
         

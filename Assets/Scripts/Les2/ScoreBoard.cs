@@ -7,7 +7,7 @@ public class Scoreboard : MonoBehaviour
     public int score = 0;
     public TMP_Text scoreText;
    
-    void Start()
+    void OnEnable()
 {
     Hit.OnPickupCollected += AddScore;
 }
@@ -20,6 +20,11 @@ void AddScore()
 void UpdateScoreText()
     {
         scoreText.text = "Score: " + score;
+    }
+
+    void OnDisable()
+    {
+        Hit.OnPickupCollected -= AddScore;
     }
 }
     
