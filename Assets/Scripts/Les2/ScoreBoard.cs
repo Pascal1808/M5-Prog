@@ -1,25 +1,25 @@
 using UnityEngine;
+using System;
 using TMPro;
-public class ScoreBoard : MonoBehaviour
+ 
+public class Scoreboard : MonoBehaviour
 {
     public int score = 0;
     public TMP_Text scoreText;
-
+   
     void Start()
-    {
-        Hit.OnHit += AddScore;
-    }
-
-    public void AddScore()
-    {
-        score += 50;
-        UpdateScoreText();
-    }
-
-    void UpdateScoreText()
+{
+    Hit.OnPickupCollected += AddScore;
+}
+ 
+void AddScore()
+{
+    score += 50;
+    UpdateScoreText();
+}
+void UpdateScoreText()
     {
         scoreText.text = "Score: " + score;
     }
-
 }
     

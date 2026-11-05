@@ -24,6 +24,8 @@
 
 ### Opdracht 1.12
 ![gif](TowerSpawner.gif)
+# Les2 
+![gif](02-Scoreboard.gif)
 # Les4
 
 # Les5
@@ -33,6 +35,9 @@
 [Console.cs](Assets\Scripts\Les1\Console.cs)
 [TowerSpawner.cs](Assets\Scripts\Les1\TowerSpawner.cs)
 [Tower.cs](Assets\Scripts\Les1\Tower.cs)
+#### Les 2
+[Hit.cs](Assets\Scripts\Les2\Hit.cs)
+[Scoreboard.cs](Assets\Scripts\Les2\Scoreboard.cs)
 #### Les 5
 [Elf.cs](Assets\Scripts\Les5\Elf.cs)
 [guisseppe.cs](Assets\Scripts\Les5\guisseppe.cs)
