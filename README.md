@@ -1,4 +1,6 @@
 # M5-Prog 
+### Opdracht 1
+<details>
 
 ### Opdracht 1.1
 ![alt text](<Screenshot 2026-10-29 114442.png>)
@@ -24,35 +26,58 @@
 
 ### Opdracht 1.12
 ![gif](TowerSpawner.gif)
+
+</details>
+
 # Les2 
 ![gif](02-Scoreboard.gif)
 # Les4
 
 # Les5
-
 ![gif](05_OOP_Inherritance.gif)
 # Les6
 ## Depandancies
-### class Enemy: 
+<details>
+
+## class Enemy: 
 #### int Health read & write
-### class TowerUpgradeStage:
+## class TowerUpgradeStage:
 #### float Range read & write
 #### float FireRate read & write
 #### int Price read & write
-#### int UpgradeStage read only
+### int UpgradeStage read only
 #### int TowerPrice read only
-### class CoinManager:
+## class CoinManager:
 #### int Coins read only
+
+</details>
+
 ### Scripts
 #### Les 1
+
+<details>
+
 [Console.cs](Assets\Scripts\Les1\Console.cs)
 [TowerSpawner.cs](Assets\Scripts\Les1\TowerSpawner.cs)
 [Tower.cs](Assets\Scripts\Les1\Tower.cs)
+
+</details>
+
 #### Les 2
+<details>
+
 [Hit.cs](Assets\Scripts\Les2\Hit.cs)
 [Scoreboard.cs](Assets\Scripts\Les2\Scoreboard.cs)
+
+</details>
+
 #### Les 5
+
+<details>
+
 [Elf.cs](Assets\Scripts\Les5\Elf.cs)
 [guisseppe.cs](Assets\Scripts\Les5\guisseppe.cs)
 [Orc.cs](Assets\Scripts\Les5\Orc.cs)
 [PEnemy.cs](Assets\Scripts\Les5\PEnemy.cs)
+
+</details>
